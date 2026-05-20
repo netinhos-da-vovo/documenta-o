@@ -6,8 +6,8 @@ tedio
 ## Solução
 vc passara bastante tempo se divertindo assim ficanco sem tedio
 ## Público-alvo
-estudantes 
-trabalhadores cansados
+estudantes do ensino médio e fundamental 2 e
+trabalhadores cansados de
 12-45 anos
 ## Funcionalidades principais (máx. 5)
 login/cadastro, audio/visual, jogabilidade, 
