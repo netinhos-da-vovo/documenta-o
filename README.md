@@ -12,7 +12,7 @@ trabalhadores cansados de
 ## Funcionalidades principais (máx. 5)
 login/cadastro, audio/visual, jogabilidade, 
 ## Diferencial competitivo
-esse jogo sera o unico até agora com um tema de destruir montanhas para recontruir seu lar
+esse jogo sera o unico até agora com um tema de destruir montanhas para recontruir seu lar.
 ## Tecnologias planejadas (Back-end)
 [Serão definidas nas aulas de Programação Back-end]
 ## Riscos iniciais
