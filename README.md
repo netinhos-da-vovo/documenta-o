@@ -38,6 +38,6 @@ esse jogo sera o unico até agora com um tema de destruir montanhas para recontr
 | rhuan,murilo piola | Prototipagem | Front-end (se houver) |
 | ... | ... | ... |
 ## Links úteis
-- **Kanban (Trello):** [link]
+- **Kanban (Trello):** [https://trello.com/b/jfXT0TXC]
 - **Protótipo (Figma):** [a preencher]
-- **Repositório:** [link]
+- **Repositório:** [https://github.com/netinhos-da-vovo/documenta-o.git]
