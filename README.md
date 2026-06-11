@@ -39,5 +39,5 @@ esse jogo sera o unico até agora com um tema de destruir montanhas para recontr
 | ... | ... | ... |
 ## Links úteis
 - **Kanban (Trello):** [https://trello.com/b/jfXT0TXC]
-- **Protótipo (Figma):** [a preencher]
+- **Protótipo (Figma):** [https://www.figma.com/design/kpdPNwmrpx9vOvcruBGpMQ/Sem-t%C3%ADtulo?node-id=17-104&t=69J6RdSvROvpgrax-1]
 - **Repositório:** [https://github.com/netinhos-da-vovo/documenta-o.git]
