@@ -40,11 +40,11 @@ esse jogo sera o unico até agora com um tema de destruir montanhas para recontr
 ## roteiro do pitch
 Roteiro do pitch
 ### Contexto
- Somos alunos do curso de Desenvolvimento de Sistemas e percebemos que falta jogo que prendam a atenção das pessoas
+ Somos alunos do curso de Desenvolvimento de Sistemas e percebemos que faltam jogos que prendam a atenção das pessoas
 ### Conflito
- O principal problema que queremos resolver, o tedio das pessoas e a falta de diversão 
+ O principal problema que queremos resolver, é o tédio das pessoas e a falta de diversão 
 ### Solução
- Para isso, criamos o Comedor de montanhas , que funciona da seguinte forma ele vai quebrar montanhas para se alimentar 
+ Para isso, criamos o Comedor de montanhas , que funciona da seguinte forma, ele vai quebrar montanhas para se alimentar 
 ### Prova
  Testamos com 11 usurios e obtivemos que presisamos melhorar a movimentação de montanha, a historia e mais conteudos.
 ### Chamada para a o publico
