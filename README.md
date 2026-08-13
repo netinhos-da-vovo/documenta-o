@@ -46,7 +46,7 @@ Roteiro do pitch
 ### Solução
  Para isso , criamos o Comedor de montanhas , que funciona da seguinte forma ele vai quebrar montanhas para se alimentar 
 ### Prova
- Testamos com inumeros usurios e obtivemos que presisamos melhorar a movimentação de montanha 
+ Testamos com 11 usurios e obtivemos que presisamos melhorar a movimentação de montanha, a historia e mais conteudos.
 ### Chamada para a o publico
 Queremos que vocês nosso publico teste, ajude e nós fale sobre oque podemos melhorar no jogo e bugs   
 ## Kanban e indicadores
