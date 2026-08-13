@@ -49,7 +49,13 @@ Roteiro do pitch
  Testamos com inumeros usurios e obtivemos que presisamos melhorar a movimentação de montanha 
 ### Chamada para a o publico
 Queremos que vocês nosso publico teste, ajude e nós fale sobre oque podemos melhorar no jogo e bugs   
-
+## Kanban e indicadores
+![ Print do Trello ]( link - da - sua - imagem . jpg )
+| Indicador | Valor |
+| - - - - - - - - - - -| - - - - - - -|
+| WIP ( limite ) | 3 c a r t e s |
+| Lead Time m d i o | 53,7 dias |
+| Cycle Time m d i o | 24,4 dias |
 ## Links úteis
 - **Kanban (Trello):** [https://trello.com/b/jfXT0TXC]
 - **Protótipo (Figma):** [https://www.figma.com/design/kpdPNwmrpx9vOvcruBGpMQ/Sem-t%C3%ADtulo?node-id=17-104&t=69J6RdSvROvpgrax-1]
