@@ -54,4 +54,5 @@ Queremos que vocês nosso publico teste, ajude e nós fale sobre oque podemos me
 - **Kanban (Trello):** [https://trello.com/b/jfXT0TXC]
 - **Protótipo (Figma):** [https://www.figma.com/design/kpdPNwmrpx9vOvcruBGpMQ/Sem-t%C3%ADtulo?node-id=17-104&t=69J6RdSvROvpgrax-1]
 - **Repositório:** [https://github.com/netinhos-da-vovo/documenta-o.git]
-- **link do formulario: [https://docs.google.com/forms/d/e/1FAIpQLSdv326f0KPWHHxAKEea0mSvQw99Rtd0jfYmL70OlgXWLrUybg/viewform?usp=header]
+- **formulario: [https://docs.google.com/forms/d/e/1FAIpQLSdv326f0KPWHHxAKEea0mSvQw99Rtd0jfYmL70OlgXWLrUybg/viewform?usp=header]
+- **MVP: https://docs.google.com/document/d/1vNgIdF-l4Rt5gA_ogjS6lFJp_UGmGIlIWN7GBHvRBbI/edit?usp=sharing
