@@ -50,15 +50,17 @@ Roteiro do pitch
 ### Chamada para a o publico
 Queremos que vocês nosso publico teste, ajude e nós fale sobre oque podemos melhorar no jogo e bugs   
 ## Kanban e indicadores
-( <img width="887" height="623" alt="image" src="https://github.com/user-attachments/assets/ff6d5b52-1842-49c7-bf17-8d6ef876f08e" />)
+( <img width="800" height="600" alt="image" src="https://github.com/user-attachments/assets/ff6d5b52-1842-49c7-bf17-8d6ef876f08e" />
 
 | Indicador | Valor |
 
 | - - - - - - - - - - -| - - - - - - -|
 
-| WIP ( limite ) | 3 c a r t e s |
-| Lead Time m d i o | 53,7 dias |
-| Cycle Time m d i o | 24,4 dias |
+| WIP ( limite ) | 3 c a r t e s |  
+
+| Lead Time m d i o | 53,7 dias |  
+
+| Cycle Time m d i o | 24,4 dias |   
 ## Links úteis
 - **Kanban (Trello):** [https://trello.com/b/jfXT0TXC]
 - **Protótipo (Figma):** [https://www.figma.com/design/kpdPNwmrpx9vOvcruBGpMQ/Sem-t%C3%ADtulo?node-id=17-104&t=69J6RdSvROvpgrax-1]
