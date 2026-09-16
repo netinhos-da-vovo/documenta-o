@@ -1,0 +1,23 @@
+nums.map(n => n * 2)
+
+nums.filter(n => n % 2 === 0)
+
+map transforma cada elemento e devolve um array do mesmo tamanho, enquanto filter seleciona apenas os elementos que passam na condição e pode devolver um array menor.
+
+const { titulo, preco } = p;
+
+const ehCaro = n => n > 100;
+
+const cores2 = [...cores, "vermelho"];
+
+const pEmPromocao = { ...p, preco: 20 };
+
+produtos.filter(p => p.estoque > 0).map(p => p.nome)
+
+O problema é que a função de callback usa chaves {} sem o return. O correto seria: const total = precos.map(p => p * 2); ou const total = precos.map(p => { return p * 2; });
+
+import Botao from "./Botao.js" importa o export default do arquivo. import { Botao } from "./Botao.js" importa um named export (export nomeado).
+
+Porque push muta o array original. No React o estado deve ser tratado de forma imutável; alterar diretamente o array não dispara a re-renderização corretamente.
+
+produtos.filter(p => p.estoque > 5).map(p => p.nome)
