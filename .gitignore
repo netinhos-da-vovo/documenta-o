@@ -1,3 +1,7 @@
+# Godot
+.godot/
+/android/
+
 # macOS
 .DS_Store
 
