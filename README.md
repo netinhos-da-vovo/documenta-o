@@ -1,69 +1,132 @@
-# Comedor de montanhas
-> **Status:** Planejamento inicial
-> **Data:** 18/05/2026
-## Problema
-tedio
-## Solução
-vc passara bastante tempo se divertindo assim ficanco sem tedio
-## Público-alvo
-estudantes do ensino médio e fundamental 2 e
-trabalhadores cansados de
-12-45 anos
-## Funcionalidades principais (máx. 5)
-login/cadastro, audio/visual, jogabilidade, 
-## Diferencial competitivo
-esse jogo sera o unico até agora com um tema de destruir montanhas para recontruir seu lar.
-## Tecnologias planejadas (Back-end)
-[Serão definidas nas aulas de Programação Back-end]
-## Riscos iniciais
-1. não terminar a tempo
-2. alguma função que não conseguimos resolver
-3. grupo não participar
-## Cronograma básico (semanas)
-- Semana 1: documentação, wireframes, Kanban
-- Semana 2: protótipo Figma
-- Semana 3: validação
-- Semana 4: MVP
-- Semana 5: backlog
-- Semana 6: indicadores
-- Semana 7: métricas
-- Semana 8: prova teórica
-- Semana 9: roteiro pitch
-- Semana 10: screenshots
-- Semana 11: pitch final
-## Integrantes e papéis
-| Nome | Papel (Inovação) | Papel (Back-end) |
-|------|------------------|------------------|
-| pietro, luiz felipe| Documentação/Validação | API/Banco |
-| rhuan,murilo piola | Prototipagem | Front-end (se houver) |
-| ... | ... | ... |
-## roteiro do pitch
-Roteiro do pitch
-### Contexto
- Somos alunos do curso de Desenvolvimento de Sistemas e percebemos que faltam jogos que prendam a atenção das pessoas
-### Conflito
- O principal problema que queremos resolver, é o tédio das pessoas e a falta de diversão 
-### Solução
- Para isso, criamos o Comedor de montanhas , que funciona da seguinte forma, ele vai quebrar montanhas para se alimentar 
-### Prova
- Testamos com 11 usurios e obtivemos que presisamos melhorar a movimentação de montanha, a historia e mais conteudos.
-### Chamada para a o publico
-Queremos que vocês nosso publico teste, ajude e nós fale sobre oque podemos melhorar no jogo e bugs   
-## Kanban e indicadores
-( <img width="800" height="600" alt="image" src="https://github.com/user-attachments/assets/ff6d5b52-1842-49c7-bf17-8d6ef876f08e" />
+# Comedor de Montanhas
 
-| Indicador | Valor |
+Jogo 2D de plataforma feito em Godot 4.6. Você quebra a montanha, junta o que cai dela e
+usa esse material para reconstruir o seu lar.
 
-| - - - - - - - - - - -| - - - - - - -|
+> **Status:** preparando o MVP para a EXPOCEEP, dia 09/10. A meta é **uma fase só**, que
+> dá para jogar do começo ao fim em no máximo 15 minutos. O resto a gente coda depois da
+> feira.
 
-| WIP ( limite ) | 3 c a r t e s |  
+## Onde a gente conversa
 
-| Lead Time m d i o | 53,7 dias |  
+💬 **Discord da EXPOCEEP:** https://discord.gg/S3HyaNr3X
 
-| Cycle Time m d i o | 24,4 dias |   
-## Links úteis
-- **Kanban (Trello):** [https://trello.com/b/jfXT0TXC]
-- **Protótipo (Figma):** [https://www.figma.com/design/kpdPNwmrpx9vOvcruBGpMQ/Sem-t%C3%ADtulo?node-id=17-104&t=69J6RdSvROvpgrax-1]
-- **Repositório:** [https://github.com/netinhos-da-vovo/documenta-o.git]
-- **formulario: [https://docs.google.com/forms/d/e/1FAIpQLSdv326f0KPWHHxAKEea0mSvQw99Rtd0jfYmL70OlgXWLrUybg/viewform?usp=header]
-- **MVP: https://docs.google.com/document/d/1vNgIdF-l4Rt5gA_ogjS6lFJp_UGmGIlIWN7GBHvRBbI/edit?usp=sharing
+É lá que sai o briefing de segunda, o horário de dúvida e o "peguei essa issue". Dúvida no
+canal, não no direct: a resposta serve pros outros também.
+
+---
+
+## Por que mexer no repositório agora
+
+Hoje o jogo inteiro está dentro de um `.zip`. O Git não enxerga o que tem dentro de um zip:
+para ele, cada versão nova é só um arquivo binário trocado por outro. Não dá para ver o que
+mudou, não dá para juntar o trabalho de duas pessoas e não dá para saber quem fez o quê.
+
+Na feira, quem apresenta são vocês, e a banca pode perguntar para qualquer um da equipe
+"o que você fez nesse jogo?". A resposta tem que estar no histórico do Git, com o nome de
+cada um.
+
+E tem a segunda razão. Abre o `item_1.gd` e olha o que acontece quando o jogador pega um
+item: um `print` e o item some. Não soma em lugar nenhum, não tem para onde levar, o jogo
+não acaba. A mecânica de quebrar a montanha está boa, o que falta é o jogo ter começo, meio
+e fim.
+
+---
+
+## Progresso
+
+`░░░░░░░░░░░░░░░░░░░░` **0%** · 0/14 issues concluídas
+
+| Fase | Foco | Prazo | Progresso |
+|---|---|---|---|
+| 0 | Arrumar o repositório | 30/09 | 0% (0/3) |
+| 1 | Fechar o loop do jogo | 04/10 | 0% (0/5) |
+| 2 | Som, build e playtest | 06/10 | 0% (0/3) |
+| 3 | Preparar a feira | 08/10 | 0% (0/3) |
+
+> O progresso fica nos **Milestones** do GitHub, a barra sobe sozinha quando a issue
+> fecha. A tabela acima é um retrato, atualizado de vez em quando.
+
+---
+
+## As fases
+
+| Fase | O que entra | O que você aprende |
+|---|---|---|
+| **0** | Tirar o projeto do zip, `.gitignore` do Godot, renomear o projeto, tirar os exercícios de aula daqui | Por que o Git precisa ver o código, e o que não se versiona |
+| **1** | Contador de material na tela, coleta somando no contador, o lar que recebe material, o lar sendo reconstruído, tela de vitória | Sinais do Godot, cenas conversando entre si, estado do jogo |
+| **2** | Sons, build para Windows testada no PC do laboratório, playtest com 20 pessoas | Exportar um jogo, testar fora da sua máquina, ouvir quem joga |
+| **3** | Banner, texto ABNT, ensaio do pitch | Explicar o que você fez para quem nunca viu |
+
+A ordem importa: a Fase 1 só dá para começar com o projeto fora do zip, porque é a partir
+dela que cada um trabalha na sua branch. E não dá para fazer playtest de um jogo que não
+acaba.
+
+### O que já funciona
+
+- Andar, pular e dash, com aceleração e atrito
+- Quebrar bloco com o mouse, com alcance máximo e o bloco destacado
+- Material caindo quando o bloco quebra
+- Tela de início
+- Ciclo de dia e noite, fogueira animada
+
+### Fica para depois da feira
+
+Novas fases, história, mais tipos de material, login e cadastro.
+
+---
+
+## Como jogar
+
+| Ação | Controle |
+|---|---|
+| Andar | A / D ou setas |
+| Pular | Espaço |
+| Dash | Shift |
+| Quebrar bloco | Clique esquerdo no bloco destacado |
+
+**Objetivo:** juntar material quebrando a montanha e levar até o lar para reconstruir.
+
+---
+
+## Como contribuir
+
+1. Escolha uma **issue aberta** e se atribua a ela, para ninguém pegar a mesma.
+2. Avise no Discord que pegou.
+3. Crie sua branch a partir da `main` atualizada (veja o [GITFLOW.md](docs/GITFLOW.md)).
+4. Implemente e **teste rodando o jogo**, do começo ao fim, não só a parte que você mexeu.
+5. Abra o PR fechando a issue. Cada uma que fecha empurra a barra de progresso.
+
+---
+
+## Como rodar
+
+1. Instale o [Godot 4.6](https://godotengine.org/download)
+2. Clone o repositório
+3. No Godot, clique em **Importar** e escolha o `project.godot`
+4. Aperte **F5**
+
+Na feira a gente usa a build exportada para Windows, que roda sem internet.
+
+---
+
+## Validação
+
+**Primeira rodada:** 11 pessoas testaram. O principal pedido foi melhorar a movimentação na
+montanha, e foi isso que entrou: dash, aceleração e atrito.
+
+**Segunda rodada:** entra aqui o resultado do playtest da Fase 2.
+
+---
+
+## Equipe
+
+| Nome | GitHub |
+|---|---|
+| Rhuan Pietro Toigo | |
+| Pietro Henrique Merlo | |
+| Luiz Felipe Joay | |
+| Murilo Zimmermann Gomes | |
+| Murilo Piola Alves Braga | |
+
+Orientador: Prof. Diego da Silva
