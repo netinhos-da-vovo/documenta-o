@@ -26,7 +26,7 @@ Na feira, quem apresenta são vocês, e a banca pode perguntar para qualquer um 
 "o que você fez nesse jogo?". A resposta tem que estar no histórico do Git, com o nome de
 cada um.
 
-E tem a segunda razão. Abre o `item_1.gd` e olha o que acontece quando o jogador pega um
+E tem a segunda razão. Abre o `scripts/item_1.gd` e olha o que acontece quando o jogador pega um
 item: um `print` e o item some. Não soma em lugar nenhum, não tem para onde levar, o jogo
 não acaba. A mecânica de quebrar a montanha está boa, o que falta é o jogo ter começo, meio
 e fim.
@@ -93,7 +93,8 @@ Novas fases, história, mais tipos de material, login e cadastro.
 
 1. Escolha uma **issue aberta** e se atribua a ela, para ninguém pegar a mesma.
 2. Avise no Discord que pegou.
-3. Crie sua branch a partir da `main` atualizada (veja o [GITFLOW.md](docs/GITFLOW.md)).
+3. Atualize a `main` (`git pull`) e crie sua branch a partir dela: `git checkout -b assunto-da-issue`.
+   Nunca commite direto na `main`.
 4. Implemente e **teste rodando o jogo**, do começo ao fim, não só a parte que você mexeu.
 5. Abra o PR fechando a issue. Cada uma que fecha empurra a barra de progresso.
 
