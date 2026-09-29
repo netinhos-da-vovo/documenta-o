@@ -35,13 +35,13 @@ e fim.
 
 ## Progresso
 
-`░░░░░░░░░░░░░░░░░░░░` **0%** · 0/14 issues concluídas
+`█░░░░░░░░░░░░░░░░░░░` **5%** · 1/21 issues concluídas
 
 | Fase | Foco | Prazo | Progresso |
 |---|---|---|---|
-| 0 | Arrumar o repositório | 30/09 | 0% (0/3) |
-| 1 | Fechar o loop do jogo | 04/10 | 0% (0/5) |
-| 2 | Som, build e playtest | 06/10 | 0% (0/3) |
+| 0 | Arrumar o repositório | 30/09 | 20% (1/5) |
+| 1 | Fechar o loop do jogo | 04/10 | 0% (0/8) |
+| 2 | Som, build e playtest | 06/10 | 0% (0/5) |
 | 3 | Preparar a feira | 08/10 | 0% (0/3) |
 
 > O progresso fica nos **Milestones** do GitHub, a barra sobe sozinha quando a issue
