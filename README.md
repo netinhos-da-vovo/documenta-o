@@ -18,9 +18,10 @@ canal, não no direct: a resposta serve pros outros também.
 
 ## Por que mexer no repositório agora
 
-Hoje o jogo inteiro está dentro de um `.zip`. O Git não enxerga o que tem dentro de um zip:
-para ele, cada versão nova é só um arquivo binário trocado por outro. Não dá para ver o que
-mudou, não dá para juntar o trabalho de duas pessoas e não dá para saber quem fez o quê.
+O jogo já saiu do `.zip`: cada cena e cada script estão versionados um a um. Enquanto
+estava lá dentro, o Git via só um arquivo binário trocado por outro a cada versão — não
+dava para ver o que mudou, nem para juntar o trabalho de duas pessoas. Agora dá, e é por
+isso que a partir daqui todo mundo trabalha em branch e PR.
 
 Na feira, quem apresenta são vocês, e a banca pode perguntar para qualquer um da equipe
 "o que você fez nesse jogo?". A resposta tem que estar no histórico do Git, com o nome de
