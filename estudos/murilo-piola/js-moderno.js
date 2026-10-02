@@ -2,7 +2,7 @@
 
 2) nums.filter(n => n % 2 === 0)
 
-3) map transforma cada elemento e devolve um array do mesmo tamanho, enquanto filter seleciona apenas os elementos que passam na condição e pode devolver um array menor.
+3) map transforma cada elemento e devolve um array do mesmo tamanho, enquanto filter seleciona apenas os elementos que se encaixam no que o filter pede e pode devolver um array menor.
 
 4)const { titulo, preco } = p;
 
