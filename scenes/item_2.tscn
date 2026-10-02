@@ -1,0 +1,31 @@
+[gd_scene format=3 uid="uid://bky0kinte16bp"]
+
+[ext_resource type="Script" uid="uid://d1ae516yi3m28" path="res://scripts/item_2.gd" id="1_ofqox"]
+[ext_resource type="Texture2D" uid="uid://bpl0lqu7jmn0l" path="res://assets/gandalfhardcore/Decor.png" id="2_wgo13"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_ofqox"]
+radius = 3.0
+height = 6.0
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_wgo13"]
+radius = 4.0
+height = 10.0
+
+[node name="item2" type="RigidBody2D" unique_id=826304847]
+script = ExtResource("1_ofqox")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=2100869894]
+texture = ExtResource("2_wgo13")
+region_enabled = true
+region_rect = Rect2(331.97244, 56.34433, 8.6579895, 8.300713)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=491187265]
+position = Vector2(0, 1)
+shape = SubResource("CapsuleShape2D_ofqox")
+
+[node name="Area2D" type="Area2D" parent="." unique_id=1426005523]
+collision_layer = 0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=1194067909]
+position = Vector2(0, 1)
+shape = SubResource("CapsuleShape2D_wgo13")

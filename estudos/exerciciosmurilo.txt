@@ -20,4 +20,4 @@ import Botao from "./Botao.js" importa o export default do arquivo. import { Bot
 
 Porque push muta o array original. No React o estado deve ser tratado de forma imutável; alterar diretamente o array não dispara a re-renderização corretamente
 
-produtos.filter(p => p.estoque > 5).map(p => p.nome);
+produtos.filter(p => p.estoque > 5).map(p => p.nome)

@@ -1,0 +1,13 @@
+# Godot
+.godot/
+/android/
+
+# macOS
+.DS_Store
+
+# IDEs
+.idea/
+*.iml
+
+# binarios e pacotes pesados
+*.zip
