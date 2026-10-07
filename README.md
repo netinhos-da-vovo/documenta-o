@@ -9,7 +9,7 @@ usa esse material para reconstruir o seu lar.
 
 ## Onde a gente conversa
 
-💬 **Discord da EXPOCEEP:** https://discord.gg/S3HyaNr3X
+💬 **Discord da EXPOCEEP:** https://discord.gg/R6yPPuyKH
 
 É lá que sai o briefing de segunda, o horário de dúvida e o "peguei essa issue". Dúvida no
 canal, não no direct: a resposta serve pros outros também.
