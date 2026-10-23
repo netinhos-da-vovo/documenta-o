@@ -9,9 +9,7 @@
 </head>
 <body>
     <div id="root"></div>
-
     <script type="text/babel">
-        // Passo 2 e 3: Componente Cabecalho com seus dados do 2º trimestre
         function Cabecalho() {
             return (
                 <header>
@@ -21,7 +19,6 @@
             );
         }
 
-        // Passo 2: Componente Cartao
         function Cartao() {
             return (
                 <div style={{ border: "1px solid black", margin: "10px", padding: "10px" }}>
@@ -31,7 +28,6 @@
             );
         }
 
-        // Passo 4: Componente Lista exatamente como pedido no enunciado
         function Lista() {
             const tarefas = [
                 { id: 1, texto: "Estudar React" },
@@ -44,17 +40,13 @@
             );
         }
 
-        // Renderizando tudo na tela
         function App() {
             return (
                 <div>
                     <Cabecalho />
-                    
-                    {/* Usando o Cartao três vezes */}
                     <Cartao />
                     <Cartao />
                     <Cartao />
-                    
                     <Lista />
                 </div>
             );
