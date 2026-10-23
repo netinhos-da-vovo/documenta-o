@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercícios React</title>
+    <script src="https://unpkg.com" crossorigin></script>
+    <script src="https://unpkg.com" crossorigin></script>
+    <script src="https://unpkg.com"></script>
+
+    <style>
+        .destaque {
+            background-color: #f0fdf4;
+            border: 2px solid #22c55e;
+            margin: 10px;
+            padding: 10px;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div id="root"></div>
+
+    <script type="text/babel">
+        const projeto = "Comedor de Montanhas";
+
+        function Cabecalho() {
+            return (
+                <header>
+                    <h1>{projeto}</h1>
+                    <p>o jogo do futuro esta aqui.</p>
+                </header>
+            );
+        }
+
+        function Cartao(props) {
+            return (
+                <div className="destaque">
+                    {props.children}
+                </div>
+            );
+        }
+
+        function Lista() {
+            const tarefas = [
+                { id: 1, texto: "Estudar React", feita: true },
+                { id: 2, texto: "Levar o cachorro", feita: false }
+            ];
+            return (
+                <ul>
+                    {tarefas.map((t) => (
+                        <li key={t.id}>
+                            {t.texto} {t.feita ? "✅ (feita)" : "⏳ (pendente)"}
+                        </li>
+                    ))}
+                </ul>
+            );
+        }
+
+        function App() {
+            return (
+                <div>
+                    <Cabecalho />
+                    <Cartao>
+                        <h3>Título do Cartão</h3>
+                        <React.Fragment>
+                            <Lista />
+                        </React.Fragment>
+                    </Cartao>
+                </div>
+            );
+        }
+
+        const root = ReactDOM.createRoot(document.getElementById('root'));
+        root.render(<App />);
+    </script>
+</body>
+</html>
