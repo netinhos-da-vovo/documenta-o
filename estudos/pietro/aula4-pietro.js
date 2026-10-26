@@ -1,1 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercícios React</title>
+    <script src="https://unpkg.com" crossorigin></script>
+    <script src="https://unpkg.com" crossorigin></script>
+    <script src="https://unpkg.com"></script>
+</head>
+<body>
+    <div id="root"></div>
+    <script type="text/babel">
+        function Cabecalho() {
+            return (
+                <header>
+                    <h1>comedor de montanhas</h1>
+                    <p>o jogo do futuro esta aqui.</p>
+                </header>
+            );
+        }
+
+        function Cartao() {
+            return (
+                <div style={{ border: "1px solid black", margin: "10px", padding: "10px" }}>
+                    <h3>Título do Cartão</h3>
+                    <p>Conteúdo do cartão.</p>
+                </div>
+            );
+        }
+
+        function Lista() {
+            const tarefas = [
+                { id: 1, texto: "Estudar React" },
+                { id: 2, texto: "Levar o cachorro" }
+            ];
+            return (
+                <ul>
+                    {tarefas.map((t) => <li key={t.id}>{t.texto}</li>)}
+                </ul>
+            );
+        }
+
+        function App() {
+            return (
+                <div>
+                    <Lista />
+                    <Cartao />
+                    <Cartao />
+                    <Cartao />
+                    <Cabecalho />
+                </div>
+            );
+        }
+
+        const root = ReactDOM.createRoot(document.getElementById('root'));
+        root.render(<App />);
+    </script>
+</body>
+</html>
 
