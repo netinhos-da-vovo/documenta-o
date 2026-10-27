@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<title>JSX - Comedor de Montanhas</title>
+	<style>
+		.destaque {
+			background-color: #e7f2eb;
+		}
+	</style>
+</head>
+<body>
+	<div id="root"></div>
+	<script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+	<script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+	<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+	<script type="text/babel">
+		const projeto = "Comedor de Montanhas";
+
+		function Cabecalho() {
+			return (
+				<header>
+					<h1>{projeto}</h1>
+					<p>Quebre a montanha, reúna materiais e reconstrua seu lar.</p>
+				</header>
+			);
+		}
+
+		function Cartao() {
+			return (
+				<div className="destaque">
+					<h3>Objetivo do jogo</h3>
+					<p>Quebrar blocos para reunir materiais.</p>
+				</div>
+			);
+		}
+
+		function Lista() {
+			const tarefas = [
+				{ id: 1, texto: "Quebrar blocos da montanha", feita: true },
+				{ id: 2, texto: "Levar materiais para reconstruir o lar", feita: false }
+			];
+
+			return (
+				<ul>
+					{tarefas.map((tarefa) => (
+						<li key={tarefa.id}>
+							{tarefa.texto} {tarefa.feita ? "(feita)" : "(pendente)"}
+						</li>
+					))}
+				</ul>
+			);
+		}
+
+		function ComparacaoDeAgrupamento() {
+			return (
+				<div>
+					<div>
+						<p>Agrupamento com div</p>
+						<p>Os elementos ficam dentro de uma div.</p>
+					</div>
+					<React.Fragment>
+						<p>Agrupamento com Fragment</p>
+						<p>Os elementos aparecem sem uma div envolvendo-os.</p>
+					</React.Fragment>
+				</div>
+			);
+		}
+
+		function App() {
+			return (
+				<div>
+					<Cabecalho />
+					<Cartao />
+					<Cartao />
+					<Cartao />
+					<Lista />
+					<ComparacaoDeAgrupamento />
+				</div>
+			);
+		}
+
+		const raiz = ReactDOM.createRoot(document.getElementById("root"));
+		raiz.render(<App />);
+	</script>
+	<!--
+	Registro:
+	Expressao produz um valor; usei o ternario tarefa.feita ? "(feita)" : "(pendente)".
+	Comando executa uma instrucao; usei if no teste, mas if nao pode ficar dentro das chaves do JSX.
+	O erro mais dificil foi o if nas chaves, porque parece JavaScript valido, mas ali so cabe uma expressao.
+	-->
+</body>
+</html>

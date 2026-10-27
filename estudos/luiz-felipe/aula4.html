@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Meu primeiro React</title>
+</head>
+<body>
+    <div id="root"></div>
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script type="text/babel">
+        function Cabecalho() {
+            return (
+                <header>
+                    <h1>Comedor de Montanhas</h1>
+                    <p>Quebre a montanha, reúna materiais e reconstrua seu lar.</p>
+                </header>
+            );
+        }
+
+        function Cartao() {
+            return (
+                <div>
+                    <h3>Objetivo do jogo</h3>
+                    <p>Quebrar blocos para reunir materiais.</p>
+                </div>
+            );
+        }
+
+        function Lista() {
+            const tarefas = [
+                { id: 1, texto: "Quebrar blocos da montanha" },
+                { id: 2, texto: "Levar materiais para reconstruir o lar" }
+            ];
+            return (
+                <ul>
+                    {tarefas.map((tarefa) => <li key={tarefa.id}>{tarefa.texto}</li>)}
+                </ul>
+            );
+        }
+
+        function App() {
+            return (
+                <div>
+                    <Cabecalho />
+                    <Cartao />
+                    <Cartao />
+                    <Cartao />
+                    <Lista />
+                </div>
+            );
+        }
+
+        const raiz = ReactDOM.createRoot(document.getElementById("root"));
+        raiz.render(<App />);
+    </script>
+    <!--
+   
+    Registro:
+    A lista em React tem 11 linhas; a lista JavaScript da Aula 03 tem 40 linhas de codigo.
+    Para ter dez itens, acrescento oito objetos ao vetor da lista JavaScript.
+    Para ter dez itens, acrescento igualmente oito objetos ao vetor da lista React.
+    -->
+</body>
+</html>
