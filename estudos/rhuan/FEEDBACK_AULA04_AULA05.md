@@ -8,7 +8,7 @@ Rhuan, sua nota registrada neste levantamento é **0,25 pontos**.
 | Aula 02 | 0,05 | Entrega parcial, com nota reduzida conforme o lançamento. |
 | Aula 03 | 0,05 | Entrega parcial, com nota reduzida conforme o lançamento. |
 | Aula 04 | 0,05 | Entrega parcial, com nota reduzida conforme o lançamento. |
-| Aula 05 — JSX | 0,05 | Entrega parcial, com nota reduzida conforme o lançamento. |
+| Aula 05 — JSX | 0,05 | Entrega localizada e parcial: o JSX está presente, mas as URLs dos scripts estão incompletas e a página não executa. |
 | Checkpoint 1 — tela do grupo em componentes | 0,00 | Atividade não realizada. |
 | Desconto | 0,00 | Nenhum desconto aplicado. |
 | **Total** | **0,25** |  |
@@ -25,6 +25,6 @@ Os arquivos encontrados correspondem às atividades normais da Aula 05 sobre JSX
 - **Aula 02:** entrega parcial, registrada com 0,05.
 - **Aula 03:** entrega parcial, registrada com 0,05.
 - **Aula 04:** entrega parcial, registrada com 0,05.
-- **Aula 05 — JSX:** entrega parcial, registrada com 0,05.
+- **Aula 05 — JSX:** Entrega localizada e parcial: o JSX está presente, mas as URLs dos scripts estão incompletas e a página não executa. Nota registrada: 0,05.
 
 Não houve desconto por uso de recurso além do conteúdo das aulas. A nota foi atribuída com base nas entregas das aulas e na ausência de realização da atividade específica do Checkpoint 1.
