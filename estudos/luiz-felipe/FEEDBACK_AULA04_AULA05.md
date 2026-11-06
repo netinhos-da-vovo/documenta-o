@@ -1,6 +1,6 @@
 # Feedback individual — Luiz Felipe Joay
 
-Luiz, sua nota registrada neste levantamento é **0,10 pontos**.
+Luiz, sua nota registrada neste levantamento é **0,20 pontos**.
 
 | Atividade | Nota | Situação |
 |---|---:|---|
@@ -8,7 +8,7 @@ Luiz, sua nota registrada neste levantamento é **0,10 pontos**.
 | Aula 02 | 0,00 | Não foi localizada entrega válida. |
 | Aula 03 | 0,00 | Não foi localizada entrega válida. |
 | Aula 04 | 0,00 | Não foi localizada entrega válida. |
-| Aula 05 — JSX | 0,00 | Não foi localizada entrega válida. |
+| Aula 05 — JSX | 0,10 | Entrega localizada e funcional, com React por CDN, componentes, map, ternário, className e registro. |
 | Checkpoint 1 — tela do grupo em componentes | 0,00 | Atividade não realizada. |
 | Desconto | 0,00 | Nenhum desconto aplicado. |
 | **Total** | **0,10** |  |
@@ -25,6 +25,6 @@ Os arquivos encontrados correspondem às atividades normais da Aula 05 sobre JSX
 - **Aula 02:** não foi localizada entrega válida; nota registrada 0,00.
 - **Aula 03:** não foi localizada entrega válida; nota registrada 0,00.
 - **Aula 04:** não foi localizada entrega válida; nota registrada 0,00.
-- **Aula 05 — JSX:** não foi localizada entrega válida; nota registrada 0,00.
+- **Aula 05 — JSX:** Entrega localizada e funcional, com React por CDN, componentes, map, ternário, className e registro. Nota registrada: 0,10.
 
 Não houve desconto por uso de recurso além do conteúdo das aulas. A nota foi atribuída com base nas entregas das aulas e na ausência de realização da atividade específica do Checkpoint 1.
