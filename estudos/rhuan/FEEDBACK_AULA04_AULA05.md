@@ -1,9 +1,30 @@
-Aula 04. Nota: 0,05 de 0,10.
+# Feedback individual — Rhuan Pietro Lagos Toigo
 
-Sua estrutura de componentes e o map com key estão certos, mas as três tags de script estão com a URL cortada (só https://unpkg.com). Por isso React, ReactDOM e Babel não carregam e a página abre em branco. O código mostra que você entendeu props e lista, mas a entrega não roda. Metade da nota porque o código está certo e não funciona.
+Rhuan, sua nota registrada neste levantamento é **2,25 pontos**.
 
-Aula 05. Nota: 0,05 de 0,10.
+| Atividade | Nota | Situação |
+|---|---:|---|
+| Aula 01 | 0,05 | Entrega parcial, com nota reduzida conforme o lançamento. |
+| Aula 02 | 0,05 | Entrega parcial, com nota reduzida conforme o lançamento. |
+| Aula 03 | 0,05 | Entrega parcial, com nota reduzida conforme o lançamento. |
+| Aula 04 | 0,05 | Entrega parcial, com nota reduzida conforme o lançamento. |
+| Aula 05 — JSX | 0,05 | Entrega parcial, com nota reduzida conforme o lançamento. |
+| Checkpoint 1 — Figma e componentes | 2,00 | Entrega completa localizada. |
+| Desconto por recurso além do conteúdo | 0,00 | Nenhum desconto aplicado. |
+| **Total** | **2,25** |  |
 
-Aqui o JSX está bom: chaves, ternário com feita e pendente, className no destaque e React.Fragment. Só que o problema das tags de script se repete e a página não abre. Cole as URLs completas do React 18, do ReactDOM e do Babel standalone e refaça o teste, sempre abrindo no navegador antes de entregar. Metade da nota.
+## Entregas localizadas
 
-**Nota das Aulas 04 e 05: 0,10 de 0,20.**
+Foi localizada uma entrega do primeiro checkpoint, que consistia em escolher uma tela do Figma, dividir a interface em componentes e implementar a parte solicitada em React. A entrega foi considerada realizada conforme a proposta da atividade e recebeu a nota integral de **2,00 pontos**.
+**Evidência:** `netinhos-da-vovo/documenta-o:estudos/rhuan/aula05.html`
+Os recursos utilizados estão de acordo com o conteúdo trabalhado: JSX, componentes, `props`, `map`, `key`, ternário, `className`, Fragment e HTML/CSS. Não foi aplicado desconto.
+
+## Situação das aulas
+
+- **Aula 01:** entrega parcial, registrada com 0,05.
+- **Aula 02:** entrega parcial, registrada com 0,05.
+- **Aula 03:** entrega parcial, registrada com 0,05.
+- **Aula 04:** entrega parcial, registrada com 0,05.
+- **Aula 05 — JSX:** entrega parcial, registrada com 0,05.
+
+A nota foi atribuída com base nos arquivos e registros encontrados nos repositórios mapeados. Nenhum desconto foi aplicado por uso de recurso além do conteúdo das aulas.
