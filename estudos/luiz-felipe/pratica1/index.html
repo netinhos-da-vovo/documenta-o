@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Diário de Treinos</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div id="root"></div>
+	<script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+	<script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+	<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+	<script type="text/babel">
+		const treinos = [
+			{ id: 1, nome: "Peito e tríceps", duracao: 90, feito: true },
+			{ id: 2, nome: "Costas e bíceps", duracao: 60, feito: false },
+			{ id: 3, nome: "Pernas", duracao: 75, feito: false }
+		];
+
+		// MEU COMPONENTE: CartaoTreino
+		function CartaoTreino({ nome, duracao, feito }) {
+			return (
+				<article className="cartao">
+					<div>
+						<h2>{nome}</h2>
+						<p>{duracao} minutos</p>
+					</div>
+					<span className={feito ? "feito" : "pendente"}>
+						{feito ? "Concluído" : "Pendente"}
+					</span>
+				</article>
+			);
+		}
+
+		function ListaDeTreinos({ itens }) {
+			return (
+				<section className="lista" aria-label="Lista de treinos">
+					{itens.map((treino) => (
+						<CartaoTreino key={treino.id} {...treino} />
+					))}
+				</section>
+			);
+		}
+
+		function App() {
+			return (
+				<main className="tela">
+					<header className="cabecalho">
+						<div>
+							<h1>Diário de treinos</h1>
+							<p>Acompanhe seus treinos</p>
+						</div>
+						<button className="botao" type="button">Novo treino</button>
+					</header>
+					<ListaDeTreinos itens={treinos} />
+				</main>
+			);
+		}
+
+		ReactDOM.createRoot(document.getElementById("root")).render(<App />);
+	</script>
+</body>
+</html>
