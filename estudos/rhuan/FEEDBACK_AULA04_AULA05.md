@@ -1,9 +1,30 @@
-Aula 04. Nota: 0,05 de 0,10.
+# Feedback individual — Rhuan Pietro Lagos Toigo
 
-Sua estrutura de componentes e o map com key estão certos, mas as três tags de script estão com a URL cortada (só https://unpkg.com). Por isso React, ReactDOM e Babel não carregam e a página abre em branco. O código mostra que você entendeu props e lista, mas a entrega não roda. Metade da nota porque o código está certo e não funciona.
+Rhuan, sua nota registrada neste levantamento é **0,25 pontos**.
 
-Aula 05. Nota: 0,05 de 0,10.
+| Atividade | Nota | Situação |
+|---|---:|---|
+| Aula 01 | 0,05 | Entrega parcial, com nota reduzida conforme o lançamento. |
+| Aula 02 | 0,05 | Entrega parcial, com nota reduzida conforme o lançamento. |
+| Aula 03 | 0,05 | Entrega parcial, com nota reduzida conforme o lançamento. |
+| Aula 04 | 0,05 | Entrega parcial, com nota reduzida conforme o lançamento. |
+| Aula 05 — JSX | 0,05 | Entrega localizada e parcial: o JSX está presente, mas as URLs dos scripts estão incompletas e a página não executa. |
+| Checkpoint 1 — tela do grupo em componentes | 0,00 | Atividade não realizada. |
+| Desconto | 0,00 | Nenhum desconto aplicado. |
+| **Total** | **0,25** |  |
 
-Aqui o JSX está bom: chaves, ternário com feita e pendente, className no destaque e React.Fragment. Só que o problema das tags de script se repete e a página não abre. Cole as URLs completas do React 18, do ReactDOM e do Babel standalone e refaça o teste, sempre abrindo no navegador antes de entregar. Metade da nota.
+## Situação da atividade de Figma/componentes
 
-**Nota das Aulas 04 e 05: 0,10 de 0,20.**
+A atividade específica da Aula 05 — escolher uma tela do Figma, dividir em componentes, construir individualmente o componente com `props` e depois montar a tela do grupo — não foi realizada. Por isso, não há nota de Checkpoint 1 e os **2,00 pontos** não foram atribuídos.
+
+Os arquivos encontrados correspondem às atividades normais da Aula 05 sobre JSX. Eles não comprovam a realização da atividade adicional da tela do grupo em componentes.
+
+## Situação das aulas
+
+- **Aula 01:** entrega parcial, registrada com 0,05.
+- **Aula 02:** entrega parcial, registrada com 0,05.
+- **Aula 03:** entrega parcial, registrada com 0,05.
+- **Aula 04:** entrega parcial, registrada com 0,05.
+- **Aula 05 — JSX:** Entrega localizada e parcial: o JSX está presente, mas as URLs dos scripts estão incompletas e a página não executa. Nota registrada: 0,05.
+
+Não houve desconto por uso de recurso além do conteúdo das aulas. A nota foi atribuída com base nas entregas das aulas e na ausência de realização da atividade específica do Checkpoint 1.
