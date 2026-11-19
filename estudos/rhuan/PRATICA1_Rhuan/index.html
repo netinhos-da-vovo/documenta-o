@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Excluir treino</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="root"></div>
+<script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+<script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+<script type="text/babel">
+
+const treinos = [
+  { id: 1, nome: "Treino de pernas", duracao: 60, feito: true },
+  { id: 2, nome: "Corrida leve", duracao: 35, feito: false },
+  { id: 3, nome: "Alongamento", duracao: 30, feito: false }
+];
+
+// MEU COMPONENTE: ConfirmarExclusao
+function ConfirmarExclusao({ nome, duracao, erro }) {
+  return (
+    <>
+      <header className="cabecalho">
+        <div>
+          <h1>Excluir treino</h1>
+          <p>Ação sem volta</p>
+        </div>
+      </header>
+
+      <article className="cartao">
+        <div>
+          <h2>{nome}</h2>
+          <p>{duracao} min</p>
+        </div>
+        <div className="acoes">
+          <span className="editar">Editar</span>
+          <span className="excluir">Excluir</span>
+        </div>
+      </article>
+
+      <p className="mensagem">
+        Tem certeza que deseja excluir "{nome}"?
+        Depois de excluir, o treino não aparece mais na lista.
+      </p>
+
+      {erro ? <div className="erro">{erro}</div> : null}
+
+      <div className="botoes">
+        <button className="botao botao-excluir">Sim, excluir</button>
+        <button className="botao botao-voltar">Voltar</button>
+      </div>
+    </>
+  );
+}
+
+function App() {
+  const treino = treinos[1];
+
+  return (
+    <main className="tela">
+      <ConfirmarExclusao
+        nome={treino.nome}
+        duracao={treino.duracao}
+        erro="Treino não encontrado."
+      />
+    </main>
+  );
+}
+
+ReactDOM.createRoot(document.getElementById("root"))
+.render(<App />);
+</script>
+</body>
+</html>

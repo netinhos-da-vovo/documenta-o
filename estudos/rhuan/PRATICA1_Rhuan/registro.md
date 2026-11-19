@@ -1,0 +1,3 @@
+Fiz o componente ConfirmarExclusao, da tela "Excluir treino" do Figma.
+O mais difícil foi passar os valores do Figma (espaçamento, cores, bordas e tamanhos de texto) para o CSS e deixar a tela parecida com o original.
+Meu componente aparece dentro do <main className="tela"> do App, na tela de confirmar exclusão do grupo, que mostra o treino, a mensagem de confirmação, a caixa de erro e os botões "Sim, excluir" e "Voltar".
