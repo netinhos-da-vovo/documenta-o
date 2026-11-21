@@ -1,51 +1,50 @@
-# Motivo da nota: Luiz Felipe
+# Motivo da nota Luiz Felipe
 
-Luiz Felipe, tua nota ficou **4,00 de 4,00** no primeiro momento. Ainda tem a avaliação prática, que vale 1 ponto, então a nota final do momento sai depois dela.
+Luiz Felipe, fechei tua nota. O primeiro momento ficou em **5,00 de 5,00**, e com a prova regimental o total é **8,20 de 10,00**.
 
 | Parte | Nota |
 |---|---|
-| Aulas 01 a 05 | 2,00 de 2,00 |
+| Aulas 01 a 05 no git | 3,00 de 3,00 |
 | Atividade da Aula 05 | 1,00 de 1,00 |
 | Caderno | 1,00 de 1,00 |
+| **Primeiro momento** | **5,00 de 5,00** |
+| Prova regimental, segundo momento | 3,20 |
+| **Total** | **8,20 de 10,00** |
 
-Cada aula vale 0,40; aula incompleta ou que não abre vale 0,20; sem entrega vale 0,00. Não houve desconto por cópia nem por entrega atrasada.
+Cada aula vale 0,60. Aula incompleta ou que não abre vale 0,30, e sem entrega vale zero. A atividade e o caderno valem 1,00 cada. Não descontei nada por cópia.
 
-## Aula 01: JavaScript moderno (0,40 de 0,40)
+Olhei tua pasta no repositório do grupo (`netinhos-da-vovo/documenta-o`), os forks e os repositórios pessoais, arquivo por arquivo, e vi quem fez cada commit. Considerei tudo o que foi entregue até 21/11, mesmo atrasado.
 
-Arquivo: `estudos/luiz-felipe/aula01/exercicios.txt`
+Tu fez tudo certo no primeiro momento e tirou nota cheia.
 
-Os 12 itens estão feitos e corretos, incluindo as respostas escritas: a 3 explica a diferença entre map e filter, a 9 aponta que sem `return` as chaves não devolvem nada, a 10 separa `export default` de export nomeado e a 11 explica que o `push` altera a lista original.
+## Aula 01, JavaScript moderno (0,60 de 0,60)
 
-## Aula 02: Promise e async/await (0,40 de 0,40)
+Está tudo certo e funciona. O arquivo é `estudos/luiz-felipe/aula01/exercicios.txt`.
 
-Arquivo: `estudos/luiz-felipe/aula2.js`
+## Aula 02, Promise e async/await (0,60 de 0,60)
 
-As 10 perguntas estão respondidas, com o `try/catch` com await (3), o `buscarProduto` com `setTimeout` (6), o `await resposta.json()` (8), a explicação de que o fetch não falha sozinho com 404 (9) e a de que o `map` com async devolve Promises pendentes (10).
+Está tudo certo e funciona. O arquivo é `estudos/luiz-felipe/aula2.js`.
 
-## Aula 03: lista em JavaScript puro (0,40 de 0,40)
+## Aula 03, lista em JavaScript puro (0,60 de 0,60)
 
-Arquivo: `estudos/luiz-felipe/aula3.js`
+Está tudo certo e funciona. O arquivo é `estudos/luiz-felipe/aula3.js`.
 
-O JavaScript tem `materiais`, o `desenhar()` com os dois contadores, o aviso de lista vazia, o checkbox que atualiza o estado e o botão Adicionar com `trim()`. O HTML necessário está num comentário no início do arquivo, e os testes 1 e 4 e o registro de 3 linhas estão no final. O mais correto seria entregar um `index.html` junto, para a página abrir sozinha, mas o conteúdo está todo lá e isso não custou nada.
+## Aula 04, React por CDN (0,60 de 0,60)
 
-## Aula 04: React por CDN (0,40 de 0,40)
+Está tudo certo e funciona. O arquivo é `estudos/luiz-felipe/aula4.html`.
 
-Arquivo: `estudos/luiz-felipe/aula4.html`
+## Aula 05, JSX com chaves, ternário e className (0,60 de 0,60)
 
-A página abre e renderiza com App, Cabecalho, três `Cartao` e uma Lista com `map` e `key`, e o registro comparando as linhas da lista em React e em JavaScript está num comentário no fim do arquivo.
+Está tudo certo e funciona. O arquivo é `estudos/luiz-felipe/aula5.html`.
 
-## Aula 05: chaves, ternário e className (0,40 de 0,40)
+## Atividade da Aula 05, tela do grupo em componentes (1,00 de 1,00)
 
-Arquivo: `estudos/luiz-felipe/aula5.html`
-
-Tem `{projeto}` no Cabecalho, o ternário `tarefa.feita ? "(feita)" : "(pendente)"`, a classe `destaque` no `Cartao`, o Fragment numa comparação com a div e o registro sobre expressão e comando.
-
-## Atividade da Aula 05: tela do grupo em componentes (1,00 de 1,00)
-
-Arquivos: `estudos/luiz-felipe/pratica1/index.html`, `style.css` e `registro.md`
-
-O componente `CartaoTreino({ nome, duracao, feito })` está marcado com `// MEU COMPONENTE`, recebe props, usa ternário para a classe e o texto e aparece repetido dentro da lista com `map` e `key`. O registro tem as 3 linhas. A entrega saiu em 13/11, depois do prazo, e não teve desconto.
+Está completa, com componente teu usando props, commit teu e registro.
 
 ## Caderno (1,00 de 1,00)
 
-Entregue completo.
+O caderno está completo.
+
+## Nota fechada
+
+As notas estão fechadas e tu tirou nota cheia no primeiro momento.
